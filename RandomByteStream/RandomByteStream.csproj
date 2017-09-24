@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.4;net46</TargetFrameworks>
-    <PackageId>ASikaria.RandomByteStream</PackageId>
+    <PackageId>Widgeteer.RandomByteStream</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>ASikaria</Authors>
     <Description>
@@ -17,5 +17,6 @@ very high speed.
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Atul Sikaria. All rights reserved.</Copyright>
     <PackageTags>random stream</PackageTags>
+	<RepositoryUrl>https://github.com/asikaria/RandomByteStream</RepositoryUrl>
   </PropertyGroup>
 </Project>
