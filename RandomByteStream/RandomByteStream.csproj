@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.4;net46</TargetFrameworks>
     <PackageId>Widgeteer.RandomByteStream</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>ASikaria</Authors>
     <Description>
 Generates random numbers for creating a high-performance test stream.
@@ -21,6 +21,7 @@ See details at the project site: https://github.com/asikaria/RandomByteStream
     <Copyright>Copyright 2017 (c) Atul Sikaria. All rights reserved.</Copyright>
     <PackageTags>random stream</PackageTags>
 	<RepositoryUrl>https://github.com/asikaria/RandomByteStream</RepositoryUrl>
-	<ProjectUrl>https://github.com/asikaria/RandomByteStream</ProjectUrl>
+	<PackageProjectUrl>https://github.com/asikaria/RandomByteStream</PackageProjectUrl>
+	<PackageLicenseUrl>https://raw.githubusercontent.com/asikaria/RandomByteStream/master/LICENSE.txt</PackageLicenseUrl>
   </PropertyGroup>
 </Project>
