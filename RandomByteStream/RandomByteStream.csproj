@@ -1,7 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
-  </PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net46</TargetFrameworks>
+    <PackageId>ASikaria.RandomByteStream</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>ASikaria</Authors>
+    <Description>
+Generates random numbers for creating a high-performance test stream.
 
+This stream pre-generates generates a few megabytes of random data, and uses that same data repeatedly. 
+
+This is not suitable for security purposes. However, for testing data processing pipelines,
+this provides just what is needed - random (non-compressible) bytes of arbitrary length, available at 
+very high speed.
+	</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Atul Sikaria. All rights reserved.</Copyright>
+    <PackageTags>random stream</PackageTags>
+  </PropertyGroup>
 </Project>
